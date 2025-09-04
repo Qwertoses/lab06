@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <h1>Welcome to My Web Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#webdevelopmentbasics">Web Development Basics</a></li>
+            <li><a href="#samplecode">Sample Code</a></li>
+            <li><a href="#weeklyschedule">Weekly Schedule</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <h2 id="aboutme">About Me</h2>
+        <figure>
+            <img src="https://static.wikia.nocookie.net/roblox-anomalies/images/b/be/Johndoughrendernew.png/revision/latest?cb=20250104221602" alt="John Doe">
+            <figcaption>John Doe</figcaption>
+        </figure>
+        <p>I love web development <br>
+            It allows me to build cool things with just code <br>
+            HTML uses tags like &lt;div&gt; and &lt;section&gt; to organize content
+        </p>     
+    
+        <h2 id="webdevelopmentbasics">Web Development Basics</h2>
+        HTML stands for HyperTextMarkup Language. It structures content using tags like <code>&lt;h1&gt;, &lt;p1&gt;</code> and <code>&lt;img&gt;</code>
+
+        <h2 id="samplecode">Sample Code</h2>
+        <pre>function hello() {
+    console.log("Hello, world!");
+    }
+        </pre>
+        <blockquote>"Web development is like magic &mdash; except it's real and you can learn it."</blockquote>
+
+        <h2 id="weeklyschedule">Weekly Schedule</h2>
+        <table>
+            <tr>
+                <thead>
+                <th colspan="2"> Monday Friday</th>
+                <th> Activity</th>
+                </thead>
+            </tr>
+            <tbody>
+            <tr>
+                <th colspan="2"> 5PM - 12AM</th>
+                <th>Midnight Grind</th>
+            </tr>
+            </tbody>
+            <tfoot>
+                <tr>&copy; 2025 John Doe - All rights reserved</tr>
+            </tfoot>
+        </table>
+        <br>
+
+
+        <h2 id="contactme">Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="Name">Name:<input type="text" id="Name"></label><br>
+            <label for="Email">Email:<input type="text" id="Email"></label><br>
+            <label for="Color">Favorite Color:<input type="color" id="Color"></label><br>
+            <label for="Date">Date:<input type="date" id="Date"></label><br>
+            <label for="Email">Email:<input type="text" id="Email"></label><br>
+            <label>Enjoy this Lab?<input type="radio" name="lab"> Yes</label>
+            <label><input type="radio" name="lab"> No</label><br>
+
+            <label for="Schedule">Select Schedule
+                <select id="Schedule">
+                    <option>Monday</option>
+                    <option>Friday</option>
+                </select>  
+            </label><br>
+
+             <label for="feedback">Your feedback</label>
+                <textarea name="feedback" id="feedback" rows="10" cols="100" placeholder="Your feedback..."></textarea>
+            <br>
+
+            <button>Submit</button>
+        </form>
+
+        <footer>
+            &copy; 2025 John Doe - All rights reserved <br>
+            Made with &hearts;
+        </footer>
+    </main>
+</body>
+</html>
